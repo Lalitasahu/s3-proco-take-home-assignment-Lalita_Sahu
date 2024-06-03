@@ -64,4 +64,4 @@ def listpage():
 
 listpage()
 df = pd.DataFrame(All_Data)
-df.to_excel('All_franchisesuppliernetwork.xlsx',index=False)
+df.to_excel('All_franchisesuppliernetwork_write.xlsx',index=False)
